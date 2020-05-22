@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function SiteStripe() {
+const SiteStripe: React.FunctionComponent = () => {
   const classes = useStyles();
 
   return (
@@ -30,3 +30,5 @@ export default function SiteStripe() {
     </div>
   );
 }
+
+export default SiteStripe;

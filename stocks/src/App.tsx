@@ -1,8 +1,8 @@
 import React from "react";
 import SiteStripe from "./components/SiteStripe";
 
-function App() {
+const App: React.FunctionComponent = () => {
   return <SiteStripe />;
-}
+};
 
 export default App;
