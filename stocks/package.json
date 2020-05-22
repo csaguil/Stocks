@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prettier": "prettier --write src/* && prettier --write src/components/*",
+    "prettier": "prettier --write src/components/*",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
