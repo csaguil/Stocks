@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prettier": "prettier --write src/*",
+    "prettier": "prettier --write src/* && prettier --write src/components/*",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@material-ui/icons": "^4.9.1",
     "@types/material-ui": "^0.21.7",
     "@types/node": "^12.12.42",
     "@types/react": "^16.9.35",
