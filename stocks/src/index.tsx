@@ -1,5 +1,5 @@
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core";
-import { grey, green } from "@material-ui/core/colors";
+import { blue, green, grey } from "@material-ui/core/colors";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -8,9 +8,27 @@ import * as serviceWorker from "./serviceWorker";
 
 const theme = createMuiTheme({
   palette: {
-    primary: { ...grey, main: grey[900] },
-    secondary: green
-  }
+    primary: { ...blue, main: blue[700] },
+    secondary: green,
+    text: {
+          primary: "##303030",
+          secondary: "#00000"
+    } 
+  },
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+  },
 });
 
 ReactDOM.render(
